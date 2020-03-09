@@ -1,0 +1,18 @@
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+.about{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #FFD700	, #F4A460);
+}
+
+.fs{
+  text-indent: 100px;
+    background-color: mediumseagreen;
+    height:100vh;
+}
+.about-us{
+  color:darkmagenta;
+}
+.about-me-text{ color:purple;}
