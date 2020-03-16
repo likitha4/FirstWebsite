@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="s1.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <style media="screen">
+hr{
+  display: block;
+  }
+  body{
+    background-image:https://cdn.hipwallpaper.com/i/31/18/qteBiy.jpg;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: ;
+  position:relative;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+    </style>
+<body>
+
+<hr />
+<form action="/action_page.php" method="post">
+  <div class="container">
+    <center>
+        <h3>LOGIN</h3>
+        </center>
+        <hr />
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div class="container" style="background-color:white">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw" style="color:red">Forgot password?</span>
+  </div>
+</form>
+  </body>
+</html>

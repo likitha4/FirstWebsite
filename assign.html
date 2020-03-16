@@ -1,0 +1,145 @@
+<partial src="a.html"/>
+<partial src="p.html"/>
+<partial src="l.html"/>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="s1.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <center>
+    <h4><font color='green'><b> CONTROLLING THE SUBCONSCIOUS</b> </font>  </h4>
+</center>
+  </head>
+  <title> CTS</title>
+<style>
+* box-sizing:{border-box}
+
+.slideshow-container {
+max-width:2000px;
+position:absolute;
+padding-left: 10px;
+object-fit:contain;
+
+}
+.mySlide{ padding-left:30px;
+  padding-top:05px;
+  position:absolute;
+display: none;
+
+}
+body{
+  background-color: lavenderblush;
+	}
+.sidenav {
+  height: 20px;
+}
+.about{
+    padding-top:20px;
+  padding-bottom:150px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px ;
+  position: absolute;
+  top: 10;
+}
+.img{ position:absolute;
+  padding-top:50px;
+
+}
+.p1{
+  letter-spacing:0.5px;
+  word-spacing:2px;
+  line-height:1.8;
+  font-weight:600;
+
+}
+</style>
+
+<body>
+  <nav>
+   <div class="nav-wrapper pink">
+      <a href="#" data-target="w1" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+       <ul class="right hide-on-med-and-down">
+       <li><a href="a.html"><b>ABOUT US</b></a></li>
+       <li><a href="l.html"><b>LOGIN/SIGN UP</b></a></li>
+       <li><a href="p.html"><b>PRODUCTS</b></a></li>
+              </ul>
+   </div>
+ </nav>
+ <ul class="sidenav" id="w1">
+   <li><a href="a.html"><b>ABOUT US</b></a></li>
+   <li><a href="l.html"><b>LOGIN/SIGN UP</b></a></li>
+   <li><a href="p.html"><b>PRODUCTS</b></a></li>
+    </ul>
+    <script>
+      $(document).ready(function () {
+          $('.sidenav').sidenav();
+      });
+      $(document).ready(function () {
+          $('.carousel').carousel();
+      });
+
+      $(document).ready(function () {
+          $('.modal').modal();
+      });
+  </script>
+  <div class="slideshow">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlide">
+    <div class="numbertext">1/ 3</div>
+    <img src="https://miro.medium.com/max/810/0*fEcY9KZ8WaaGl1F-.png" style="width:40vw","height=40px">
+  </div>
+
+  <div class="mySlide">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://serenitycreationsonline.com/wp-content/uploads/2018/08/Subconscious-Mind.jpg" style="width:40vw","height=40px">
+  </div>
+
+  <div class="mySlide">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://image.shutterstock.com/image-vector/neuroplasticity-word-cloud-on-white-260nw-1388253686.jpg" style="width:40vw","height=40px">
+  </div>
+</div>
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlide");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); //
+  }
+  </script>
+
+  <img src="https://suzieflynn.com/wp-content/uploads/Subconscious-Mind-1080x675.jpg" width="30%" height="30%" align-"right"  hspace="870" vspace="10">
+
+<div class="about" id="about" >
+  <p class="p1">
+
+    Your <span  style="color:red"> mind</span> has a powerful impact on your body and your physical health.So mastering your thoughts and “mind control” is an important factor.
+    Mind control, the concept that the human mind can be altered or controlled by certain psychological techniques. Once you finished growing, so did your brain and that was it.
+    But advances in neuroscience have proven otherwise. It is called<span style="color:hotpink"> neuroplasticity</span> – the brain's ability to grow, and change and it happens over the course of our lives.
+And there are ways we can influence that growth and create new pathways in the brain – effectively working to help rewire it in a desired direction.
+For those suffering from anxiety, depression, or other psychological issues, this is good news.It means that you can be a part of your own healing, because your brain, and therefore your symptoms, can change.
+You can decrease your response to stress, navigate negative feelings, work through painful events, and experience deeper self awareness, personal growth, love and happiness.
+  </p>
+
+</div>
+
+  </body>
+</html>
